@@ -1,0 +1,19 @@
+---
+- name: group by OS
+  hosts: all
+  tasks:
+    - group_by: key=os_{{ ansible_distribution }}
+
+- name: Apply redhat role
+  hosts: os_RedHat
+  gather_facts: False
+  roles:
+    - redhat
+  
+- name: apply lockdown configuration for all hosts
+  hosts: all
+  roles:
+    - lockdown
+
+
+  
