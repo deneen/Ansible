@@ -21,17 +21,19 @@
 #dhcp-112.site
 #dhcp-123.site
 #dhcp-133.site
-dhcp-147.site
-dhcp-116.site
-dhcp-100.site
+#dhcp-147.site
+#dhcp-116.site
+#dhcp-100.site
 #dhcp-134.site
 #dhcp-135.site
-#saltshaker
+#saltshaker.site
+#dhcp-136.site
 
-#[ldapservers]
+[ldapservers]
 #ldapmaster.site
 #freeipa.site
 #notesdev.site
+dhcp-112.site
 
 # Ex 2: A collection of hosts belonging to the 'webservers' group
 

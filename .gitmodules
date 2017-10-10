@@ -1,0 +1,12 @@
+[submodule "roles/lockdown"]
+	path = roles/lockdown
+	url = git@github.com:deneen/ansible-role-lockdown.git
+[submodule "roles/redhat"]
+	path = roles/redhat
+	url = git@github.com:deneen/ansible-role-redhat.git
+[submodule "roles/MFA"]
+	path = roles/MFA
+	url = git@github.com:deneen/ansible-role-MFA.git
+[submodule "roles/ldapserver"]
+	path = roles/ldapserver
+	url = git@github.com:deneen/ansible-role-ldapserver.git
