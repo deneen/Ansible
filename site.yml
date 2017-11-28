@@ -17,8 +17,6 @@
 
 - name: Configure ldapserver
   hosts: ldapservers
-  vars:
-    ldap_root_passwd: MyLDAPPassword
   roles:
     - ldapserver
     
